@@ -1,0 +1,31 @@
+@themeBg: #0e0e3a;
+@themeGreen: #90ff00;
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px 0;
+  color: #FFF;
+
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .subMenu {
+      cursor: pointer;
+
+      &:not(:last-child) {
+        margin-right: 32px;
+
+      }
+    }
+  }
+
+  .connect {
+    padding: 4px 10px;
+    background: @themeGreen;
+    color: #000;
+  }
+}
